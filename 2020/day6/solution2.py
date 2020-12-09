@@ -18,10 +18,8 @@ def main():
     group = set()
     first = True
     for line in input:
-        #print(line)
         if line == "\n":
             answer = answer + (len(truth))
-            #print(answer)
             first = True
             group = set()
             truth = set()
